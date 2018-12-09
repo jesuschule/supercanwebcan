@@ -1,0 +1,99 @@
+body{margin-top:20px; }
+/*--menu de navegacion movil tablet*/
+
+nav ul li{text-align:center;margin:0;font-family: 'Sedgwick Ave Display', cursive;}
+nav ul li a{color:#019A4B;margin:0; }
+nav ul li a:hover{text-decoration:none; }
+nav ul li a{font-family: 'Patrick Hand', cursive;font-size:26px;2.6rem; }
+#menu{text-align: center;list-style-type: none;padding: 0;margin:0;background-color:white;  }
+header{position:fixed;top:0;z-index: 99;width:100%;background-color: #2e549f;  }
+
+/*----------------------------------*/
+/*--banner movil tablet*/
+
+#banner{width:100%;height:auto;background-color:white;}
+#banner h1{font-family: 'Patrick Hand', cursive;font-size:80px;8rem;color:#2E549F; }
+h4{color:#f29100;font-family: 'Patrick Hand', cursive;font-size:22px; }
+h3{color: #019a4b;font-family: 'Patrick Hand', cursive;}
+.boton{position:absolute;top:2.2rem;right: .5rem;font-family: 'Patrick Hand', cursive;}
+.imagenban{display:block;margin: 0em auto 0 auto;  }
+.contactanos{ display: block;width:50%;margin: auto;margin: 0 auto 2em auto;font-family: 'Patrick Hand', cursive; font-size: 2.5rem; }
+
+/*----------------------------------*/
+/*----------------------------------*/
+/*--algunos estilos generales label,input,form,btn,footer*/
+
+label{padding-left: 2rem;color: #f29100;font-family: 'Patrick Hand', cursive;font-size:26px;2.6rem;}
+input[type="text"],[type="email"],textarea{display: block;width: 90%;margin: auto;outline:none;border-radius:6px; border: 1px solid #f29100;padding: 6px;color: #f29100;font-family: 'Patrick Hand', cursive;}
+form{width:100%;margin: auto;padding:0;  }
+.btn-danger {color: #fff;background-color: #f29100;border-color: #f29100;}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger { color: #fff;background-color: #f1b55b;border-color: #f1b55b;}
+footer{background-color:#2F53A0;color:white;font-family: 'Patrick Hand', cursive;height:100px; }
+footer h6{ line-height: 10;}
+h5{font-family: 'Patrick Hand', cursive;}
+section {padding: 100px 0;}
+h2.section-heading {font-size: 40px;margin-top: 0;margin-bottom: 15px;}
+@font-face{font-family: 'Sedgwick Ave Display', cursive;}
+.rotate{transition: all .6s;}
+.rotate:hover{ -webkit-transform: rotateY(130deg); /* Safari */
+    transform: rotateY(130deg);}
+/*----------------------------------*/
+/*acerca*/
+#acerca p{font-family: 'Patrick Hand', cursive;color:#9a9a97;}
+#acerca h1{font-family: 'Patrick Hand', cursive;margin:0; }
+#acerca{padding-bottom:2rem; }
+/*----------------------------------*/
+/*servicios*/
+#servicios{width:100%;background-color:#F49100;color:white;height:auto;  }
+#servicios h1{font-family: 'Patrick Hand', cursive;}
+#servicios img{display:block;margin:auto;  }
+/*----------------------------------*/
+/*nuestro team*/
+#nuestroequipo{width:100%;color:#67BC29;height:50vh; }
+#nuestroequipo h1{font-family: 'Patrick Hand', cursive;padding-top: 6rem; }
+#nuestroequipo p{font-family: 'Patrick Hand', cursive;}
+#nuestroequipo img{display: block;margin: auto;border:8px solid #67BC29;}
+/*----------------------------------*/
+/*instalaciones*/
+#instalaciones h1{font-family: 'Patrick Hand', cursive;}
+#instalaciones p{color: #9a9a97;}
+#instalaciones img{display:block;margin:auto;}
+.insta{color:white;}
+.carousel-caption{font-family: 'Patrick Hand', cursive;}
+.textos{line-height: 4;}
+.la{color:#67BC29;font-family: 'Patrick Hand', cursive;}
+.row{margin:auto; }
+
+/*----------------------------------*/
+/*contacto*/
+#contacto h1{font-family: 'Patrick Hand', cursive;}
+#imagenform{display:block;margin:16rem auto;}
+.enviar{margin: 2em auto;display:block;width:90%;font-family: 'Patrick Hand', cursive; }
+/*----------------------------------*/
+  /*estilos para escritorio*/
+@media screen and (min-width:768px){
+    /*header*/
+    header{box-shadow:  0px 2px 2px rgba(0,0,0,0.2);background-color:white;}
+     a img{display:block;float:left;margin-left: 1.5rem; }
+    /*--------*/
+    /*menu*/
+    #menu{display:block;height:auto;float: right;margin-top:2rem;background-color:transparent;}
+    nav ul li{display:inline-block;margin:6px;  }
+    /*--------*/
+     /*banner*/
+    #banner{width:100%;height:100vh; ;clear: both;background:url(../images/banner2.jpg) no-repeat;background-size: cover;display:flex;justify-content: center;align-items: center;background-attachment: fixed;   }
+    .imagenban{display:block;margin:4rem auto;  }
+    /*-----*/
+      /*contacto*/
+     #contacto{display:flex;justify-content: center;align-items: center; }
+      .boton{display:none; }
+    #contenform{display: flex;justify-content: center;align-items:center; }
+    .contactanos{margin:0 auto;}
+    /*-----*/
+     /*ervicios,nuestroequipo,acerca,instalaciones*/
+     #servicios{height:80vh;display:flex;justify-content:center;align-items:center;     }
+     #acerca{height:80vh;display:flex;justify-content:center;align-items:center;     }
+     #nuestroequipo{height:80vh;display:flex;justify-content:center;align-items:center;     }
+    .alturap{margin:18rem auto 0 auto;text-align: justify;font-family: 'Patrick Hand', cursive;}
+    /*-----*/    
+}
